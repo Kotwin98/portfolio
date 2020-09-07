@@ -1,3 +1,14 @@
+# My Portfolio Website
+## See [DEMO](https://kotwin98.github.io/portfolio/)
+### Tech stack
+- HTML
+- Sass
+- RWD
+- React
+- React Router
+- React Transition Group
+- Npm
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
