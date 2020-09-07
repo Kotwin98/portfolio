@@ -9,7 +9,7 @@ import { Container } from "react-bootstrap";
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Container>
           <Menu />
           <Main />
