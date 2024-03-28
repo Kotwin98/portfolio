@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../../styles/layouts/Footer.scss";
 
 //fontawesome
@@ -46,19 +46,19 @@ const Footer = () => {
       </p>
       <ul className="footer_menu">
         <li>
-          <NavLink exact to="/skills" className="footer_link">
+          <Link to="/skills" className="footer_link">
             Skills
-          </NavLink>
+          </Link>
         </li>
         <li>
-          <NavLink exact to="/portfolio" className="footer_link">
+          <Link to="/portfolio" className="footer_link">
             Portfolio
-          </NavLink>
+          </Link>
         </li>
         <li>
-          <NavLink exact to="/contact" className="footer_link">
+          <Link to="/contact" className="footer_link">
             Contact
-          </NavLink>
+          </Link>
         </li>
       </ul>
     </footer>
