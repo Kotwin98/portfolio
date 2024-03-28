@@ -11,17 +11,17 @@ const Footer = () => {
   return (
     <footer className="footer">
       <p className="footer_socials">
-        &copy;2020{" "}
-        <a 
+        &copy;2024{" "}
+        <a
           target="_blank"
           href="https://github.com/Kotwin98/portfolio"
           rel="noopener noreferrer"
         >
           Mateusz Kotwiński
         </a>
-        <a 
+        <a
           className="footer_social"
-          target="_blank" 
+          target="_blank"
           rel="noopener noreferrer"
           href="https://github.com/Kotwin98"
         >
@@ -46,11 +46,6 @@ const Footer = () => {
       </p>
       <ul className="footer_menu">
         <li>
-          <NavLink exact to="/about" className="footer_link">
-            About me
-          </NavLink>
-        </li>
-        <li>
           <NavLink exact to="/skills" className="footer_link">
             Skills
           </NavLink>
@@ -66,7 +61,7 @@ const Footer = () => {
           </NavLink>
         </li>
       </ul>
-    </footer>    
+    </footer>
   );
 };
 

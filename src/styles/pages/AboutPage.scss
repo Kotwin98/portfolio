@@ -33,9 +33,17 @@
   &_title {
     @include title;
   }
+  &_title-right {
+    @include title;
+  }
   &_text {
     margin: 10px auto;
     padding: 20px;
     @include border-shadow;
+  }
+  &_text-right {
+    margin: 10px auto;
+    padding: 20px;
+    @include border-shadow-right;
   }
 }

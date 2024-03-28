@@ -1,16 +1,15 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import { Route, Switch, withRouter } from "react-router-dom";
 //animations
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 //pages
 import HomePage from "../pages/HomePage";
-import AboutPage from "../pages/AboutPage";
 import SkillsPage from "../pages/SkillsPage";
 import PortfolioPage from "../pages/PortfolioPage";
 import ContactPage from "../pages/ContactPage";
 import NotFoundPage from "../pages/NotFoundPage";
 
-import '../../styles/layouts/Main.scss';
+import "../../styles/layouts/Main.scss";
 import "../../styles/animation/PageTransition.scss";
 
 class Main extends Component {
@@ -33,7 +32,6 @@ class Main extends Component {
           <div className="wrapper">
             <Switch location={location}>
               <Route path="/" exact component={HomePage} />
-              <Route path="/about" exact component={AboutPage} />
               <Route path="/skills" exact component={SkillsPage} />
               <Route path="/portfolio" exact component={PortfolioPage} />
               <Route path="/contact" exact component={ContactPage} />
@@ -44,6 +42,6 @@ class Main extends Component {
       </TransitionGroup>
     );
   }
-};
+}
 
 export default withRouter(Main);

@@ -11,7 +11,7 @@ class Menu extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      openMenu: false
+      openMenu: false,
     };
   }
 
@@ -22,13 +22,12 @@ class Menu extends React.Component {
   render() {
     const { openMenu } = this.state;
     const list = [
-      { name: "Start", path: "/", exact: true },
-      { name: "About me", path: "/about" },
+      { name: "Home", path: "/", exact: true },
       { name: "Skills", path: "/skills" },
       { name: "Portfolio", path: "/portfolio" },
-      { name: "Contact", path: "/contact" }
+      { name: "Contact", path: "/contact" },
     ];
-    const navigation = list.map(item => (
+    const navigation = list.map((item) => (
       <li className="menu_item" key={item.name}>
         <NavLink to={item.path} exact={item.exact ? item.exact : false}>
           {item.name}
@@ -40,9 +39,9 @@ class Menu extends React.Component {
       <header className="header">
         <div className="title">
           <span className="title_name">
-              <Link to="/">Mateusz Kotwiński</Link>
+            <Link to="/">Mateusz Kotwiński</Link>
           </span>
-          <span className="title_subtitle">junior front-end developer</span>
+          <span className="title_subtitle">Full Stack developer</span>
           <div className="title_hamburger" onClick={this.handleMenuClick}>
             <div
               className={`hamburger_line hamburger_top${
@@ -61,22 +60,22 @@ class Menu extends React.Component {
             ></div>
           </div>
           <div className="title_social">
-            <a 
-              target="_blank" 
+            <a
+              target="_blank"
               rel="noopener noreferrer"
               href="https://github.com/Kotwin98"
             >
               <FontAwesomeIcon icon={faGithub} />
             </a>
-            <a 
-              target="_blank" 
+            <a
+              target="_blank"
               rel="noopener noreferrer"
               href="https://www.linkedin.com/in/mateusz-kotwi%C5%84ski/"
             >
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            <a 
-              target="_blank" 
+            <a
+              target="_blank"
               rel="noopener noreferrer"
               href="mailto:mkotwinski98@gmail.com"
             >

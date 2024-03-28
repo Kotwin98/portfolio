@@ -18,7 +18,8 @@ import {
   faNpm,
   faYarn,
   faJira,
-  faSlack
+  faFigma,
+  faDocker,
 } from "@fortawesome/free-brands-svg-icons";
 
 const SkillsPage = () => {
@@ -71,6 +72,12 @@ const SkillsPage = () => {
             <p className="skills_lang">Stack MERN</p>
           </Col>
         </Row>
+        <Row>
+          <Col md={12}>
+            <FontAwesomeIcon icon={faDocker} className="skills_icon" />
+            <p className="skills_lang">Docker</p>
+          </Col>
+        </Row>
       </div>
       <span className="skills_title">Tools and others</span>
       <div className="skills_stack">
@@ -94,8 +101,8 @@ const SkillsPage = () => {
             <p className="skills_lang">Jira</p>
           </Col>
           <Col md={6}>
-            <FontAwesomeIcon icon={faSlack} className="skills_icon" />
-            <p className="skills_lang">Slack</p>
+            <FontAwesomeIcon icon={faFigma} className="skills_icon" />
+            <p className="skills_lang">Figma</p>
           </Col>
         </Row>
       </div>

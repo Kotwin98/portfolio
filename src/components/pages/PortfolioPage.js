@@ -2,8 +2,6 @@ import React from "react";
 import "../../styles/pages/PortfolioPage.scss";
 import { Row, Col } from "react-bootstrap";
 import portfolio from "../../images/portfolio/Portfolio.png";
-import furnituresShop from "../../images/portfolio/FurnituresShop.png";
-import blogApp from "../../images/portfolio/Blog-App.png";
 import calculator from "../../images/portfolio/Calculator.png";
 import toDoApp from "../../images/portfolio/toDoApp.png";
 import weatherApp from "../../images/portfolio/WeatherApp.png";
@@ -42,78 +40,10 @@ const PortfolioPage = () => {
               </div>
             </div>
             <p className="portfolio_desc">
-              Simple portfolio website done in React with React Router and it also features some small animations{" "}
+              Simple portfolio website done in React with React Router and it
+              also features some small animations{" "}
               <strong>
                 Tech stack: HTML | Sass | React | React Router | Npm
-              </strong>
-            </p>
-          </Col>
-          <Col md={6}>
-            <span className="portfolio_name">Blog App</span>
-            <div className="portfolio_wrapper">
-              <img
-                src={blogApp}
-                alt="techstore"
-                className="portfolio_project"
-              />
-              <div className="portfolio_middle">
-                {/* <a
-                  className="portfolio_button"
-                  target="_blank"
-                  href="#"
-                >
-                  DEMO
-                </a> */}
-                <a
-                  className="portfolio_button"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/Kotwin98/BlogApp"
-                >
-                  CODE
-                </a>
-              </div>
-            </div>
-            <p className="portfolio_desc">
-              Blog app done with MERN stack. You can easily and posts and see them displayed on the page.{" "}
-              <strong>
-                Tech stack: MERN (MongoDB, Express, React, Node.js) | Sass.
-              </strong>
-            </p>
-          </Col>
-        </Row>
-        <Row>
-          <Col md={6}>
-            <span className="portfolio_name">Furniture Store</span>
-            <div className="portfolio_wrapper">
-              <img
-                src={furnituresShop}
-                alt="firstgame"
-                className="portfolio_project"
-              />
-              <div className="portfolio_middle">
-                <a
-                  className="portfolio_button"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://loving-goldwasser-86b571.netlify.app/#"
-                >
-                  DEMO
-                </a>
-                <a
-                  className="portfolio_button"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/Kotwin98/project-wdp-1906-04"
-                >
-                  CODE
-                </a>
-              </div>
-            </div>
-            <p className="portfolio_desc">
-              Project done in a team with 3 other people. This project was developed for a month as an exercise for working in a group.{" "}
-              <strong>
-                Tech stack: HTML | Sass | JavaScript.
               </strong>
             </p>
           </Col>
@@ -146,9 +76,7 @@ const PortfolioPage = () => {
             </div>
             <p className="portfolio_desc">
               App developed to quickly write and save tasks.{" "}
-              <strong>
-                Tech stack: HTML | Sass | RWD | React | Yarn.
-              </strong>
+              <strong>Tech stack: HTML | Sass | RWD | React | Yarn.</strong>
             </p>
           </Col>
         </Row>
@@ -182,9 +110,7 @@ const PortfolioPage = () => {
             </div>
             <p className="portfolio_desc">
               Simple calculator done in JavaScript.{" "}
-              <strong>
-                Tech stack: HTML | CSS | RWD | JavaScript
-              </strong>
+              <strong>Tech stack: HTML | CSS | RWD | JavaScript</strong>
             </p>
           </Col>
           <Col md={6}>
@@ -215,10 +141,9 @@ const PortfolioPage = () => {
               </div>
             </div>
             <p className="portfolio_desc">
-              App that allows to check weather in any place by writing a city name.{" "}
-              <strong>
-                Tech stack: HTML | Sass | API | React | Yarn.
-              </strong>
+              App that allows to check weather in any place by writing a city
+              name.{" "}
+              <strong>Tech stack: HTML | Sass | API | React | Yarn.</strong>
             </p>
           </Col>
         </Row>
